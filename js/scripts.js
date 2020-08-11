@@ -28,6 +28,7 @@ $(document).ready(function(){
     }
     
   });
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".top").offset().top},"1000");return false})})
 	// Get message after sent
 	// $('#getintouch .p-sbm').click(function(){
  //        $('#get-success').empty();
